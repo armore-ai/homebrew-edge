@@ -1,9 +1,9 @@
 cask "armore-edge" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.11"
-  sha256 arm:   "939202676dc530b7ca902673c225752f1bdd47f367beab2e840d71db080bae94",
-         intel: "c95a676ff1142ac762ba11a3662d75d0aa03e6e9cf665b371333d092bb21e1f1"
+  version "1.0.12"
+  sha256 arm:   "276cadecabd777ca4fdd15fb8b077428a56c362bc69df06c1290c0f53f8786fe",
+         intel: "7e67273dc2a56f074b1a8f86282677085a47c61da21a1f3693210640e3a3f236"
 
   url "https://github.com/uniQ-Ventures/armore-edge-public/releases/download/v#{version}/Armore-Edge-#{version}-#{arch}.dmg"
   name "Armore Edge"
